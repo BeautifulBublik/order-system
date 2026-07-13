@@ -55,10 +55,10 @@ Interaction between `order-service` and `payment-service` is synchronous (HTTP),
 
 ```
 order-system/
-├── common-libs/        # общие DTO и Kafka-события
-├── order-service/       # управление заказами
-├── payment-service/      # обработка платежей
-├── delivery-service/      # назначение доставки
-├── docker-compose.yaml    # Postgres + Kafka
+├── common-libs/       
+├── order-service/      
+├── payment-service/      
+├── delivery-service/      
+├── docker-compose.yaml    
 └── settings.gradle.kts
 ```
