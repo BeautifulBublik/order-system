@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: payment-service
+  mvc:
+    problem-details:
+      enabled: true
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: postgres
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/orders
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8081

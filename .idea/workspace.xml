@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9cc4ae79-e71e-4002-8bb9-1cabc29eb3df" name="Changes" comment="Small commit">
+      <change afterPath="$PROJECT_DIR$/.gradle/9.3.0/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/9.3.0/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/9.3.0/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/9.3.0/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/9.3.0/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/9.3.0/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/9.3.0/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/9.3.0/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/9.3.0/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/9.3.0/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2026-07-11T173634.400.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/common-libs/order-system.common-libs.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/delivery-service/order-system.delivery-service.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/order-service/order-system.order-service.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/payment-service/order-system.payment-service.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-libs/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-libs/build/classes/java/main/dev/beautifulbublik/http/order/CreateOrderRequestDto$CreateOrderRequestDtoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-libs/build/classes/java/main/dev/beautifulbublik/http/order/CreateOrderRequestDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-libs/build/classes/java/main/dev/beautifulbublik/http/order/OrderItemRequestDto$OrderItemRequestDtoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-libs/build/classes/java/main/dev/beautifulbublik/http/order/OrderItemRequestDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-libs/build/classes/java/main/dev/beautifulbublik/http/order/OrderItemShowDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-libs/build/classes/java/main/dev/beautifulbublik/http/order/OrderShowDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-libs/build/classes/java/main/dev/beautifulbublik/http/order/OrderStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-libs/build/classes/java/main/dev/beautifulbublik/http/payment/CreatePaymentRequestDto$CreatePaymentRequestDtoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-libs/build/classes/java/main/dev/beautifulbublik/http/payment/CreatePaymentRequestDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-libs/build/classes/java/main/dev/beautifulbublik/http/payment/CreatePaymentResponseDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-libs/build/classes/java/main/dev/beautifulbublik/http/payment/PaymentMethod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-libs/build/classes/java/main/dev/beautifulbublik/http/payment/PaymentStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-libs/build/classes/java/main/dev/beautifulbublik/kafka/DeliveryAssignedEvent$DeliveryAssignedEventBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-libs/build/classes/java/main/dev/beautifulbublik/kafka/DeliveryAssignedEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-libs/build/classes/java/main/dev/beautifulbublik/kafka/OrderPaidEvent$OrderPaidEventBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-libs/build/classes/java/main/dev/beautifulbublik/kafka/OrderPaidEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-libs/build/libs/common-libs-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-libs/build/tmp/compileJava/compileTransaction/stash-dir/Main.class.uniqueId0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-libs/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-libs/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-libs/src/main/java/dev/beautifulbublik/http/order/CreateOrderRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-libs/src/main/java/dev/beautifulbublik/http/order/OrderItemRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-libs/src/main/java/dev/beautifulbublik/http/order/OrderItemShowDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-libs/src/main/java/dev/beautifulbublik/http/order/OrderShowDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-libs/src/main/java/dev/beautifulbublik/http/order/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-libs/src/main/java/dev/beautifulbublik/http/payment/CreatePaymentRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-libs/src/main/java/dev/beautifulbublik/http/payment/CreatePaymentResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-libs/src/main/java/dev/beautifulbublik/http/payment/PaymentMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-libs/src/main/java/dev/beautifulbublik/http/payment/PaymentStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-libs/src/main/java/dev/beautifulbublik/kafka/DeliveryAssignedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-libs/src/main/java/dev/beautifulbublik/kafka/OrderPaidEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery-service/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery-service/build/classes/java/main/dev/beautifulbublik/deliveryservice/DeliveryServiceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery-service/build/classes/java/main/dev/beautifulbublik/deliveryservice/domain/DeliveryEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery-service/build/classes/java/main/dev/beautifulbublik/deliveryservice/kafka/KafkaConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery-service/build/classes/java/main/dev/beautifulbublik/deliveryservice/kafka/OrderPaidKafkaConsumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery-service/build/classes/java/main/dev/beautifulbublik/deliveryservice/repository/DeliveryEntityRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery-service/build/classes/java/main/dev/beautifulbublik/deliveryservice/service/DeliveryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery-service/build/classes/java/test/dev/beautifulbublik/deliveryservice/DeliveryServiceApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery-service/build/resources/main/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery-service/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery-service/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery-service/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery-service/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery-service/src/main/java/dev/beautifulbublik/deliveryservice/DeliveryServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery-service/src/main/java/dev/beautifulbublik/deliveryservice/domain/DeliveryEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery-service/src/main/java/dev/beautifulbublik/deliveryservice/kafka/KafkaConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery-service/src/main/java/dev/beautifulbublik/deliveryservice/kafka/OrderPaidKafkaConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery-service/src/main/java/dev/beautifulbublik/deliveryservice/repository/DeliveryEntityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery-service/src/main/java/dev/beautifulbublik/deliveryservice/service/DeliveryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery-service/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery-service/src/test/java/dev/beautifulbublik/deliveryservice/DeliveryServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/build/classes/java/main/dev/beautifulbublik/orderservice/OrderServiceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/build/classes/java/main/dev/beautifulbublik/orderservice/controller/OrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/build/classes/java/main/dev/beautifulbublik/orderservice/controller/OrderPaymentRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/build/classes/java/main/dev/beautifulbublik/orderservice/domain/OrderEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/build/classes/java/main/dev/beautifulbublik/orderservice/domain/OrderItemEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/build/classes/java/main/dev/beautifulbublik/orderservice/external/PaymentHttpClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/build/classes/java/main/dev/beautifulbublik/orderservice/external/PaymentHttpClientConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/build/classes/java/main/dev/beautifulbublik/orderservice/kafka/DeliveryAssignedKafkaConsumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/build/classes/java/main/dev/beautifulbublik/orderservice/kafka/KafkaConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/build/classes/java/main/dev/beautifulbublik/orderservice/repository/OrderItemRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/build/classes/java/main/dev/beautifulbublik/orderservice/repository/OrderRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/build/classes/java/main/dev/beautifulbublik/orderservice/service/OrderProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/build/classes/java/main/dev/beautifulbublik/orderservice/service/mappers/OrderEntityMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/build/classes/java/main/dev/beautifulbublik/orderservice/service/mappers/OrderEntityMapperImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/build/classes/java/test/dev/beautifulbublik/orderservice/OrderServiceApplicationTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/build/generated/sources/annotationProcessor/java/main/dev/beautifulbublik/orderservice/service/mappers/OrderEntityMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/build/resolvedMainClassName" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/build/resources/main/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/dev/beautifulbublik/orderservice/OrderServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/dev/beautifulbublik/orderservice/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/dev/beautifulbublik/orderservice/controller/OrderPaymentRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/dev/beautifulbublik/orderservice/domain/OrderEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/dev/beautifulbublik/orderservice/domain/OrderItemEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/dev/beautifulbublik/orderservice/external/PaymentHttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/dev/beautifulbublik/orderservice/external/PaymentHttpClientConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/dev/beautifulbublik/orderservice/kafka/DeliveryAssignedKafkaConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/dev/beautifulbublik/orderservice/kafka/KafkaConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/dev/beautifulbublik/orderservice/repository/OrderItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/dev/beautifulbublik/orderservice/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/dev/beautifulbublik/orderservice/service/OrderProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/dev/beautifulbublik/orderservice/service/mappers/OrderEntityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/test/java/dev/beautifulbublik/orderservice/OrderServiceApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-system.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/build/classes/java/main/dev/beautifulbublik/paymentservice/PaymentServiceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/build/classes/java/main/dev/beautifulbublik/paymentservice/controller/PaymentCotroller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/build/classes/java/main/dev/beautifulbublik/paymentservice/domain/PaymentEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/build/classes/java/main/dev/beautifulbublik/paymentservice/repository/PaymentRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/build/classes/java/main/dev/beautifulbublik/paymentservice/service/PaymentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/build/classes/java/main/dev/beautifulbublik/paymentservice/service/mappers/PaymentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/build/classes/java/main/dev/beautifulbublik/paymentservice/service/mappers/PaymentMapperImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/build/classes/java/test/dev/beautifulbublik/paymentservice/PaymentServiceApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/build/generated/sources/annotationProcessor/java/main/dev/beautifulbublik/paymentservice/service/mappers/PaymentMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/build/resources/main/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/dev/beautifulbublik/paymentservice/PaymentServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/dev/beautifulbublik/paymentservice/controller/PaymentCotroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/dev/beautifulbublik/paymentservice/domain/PaymentEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/dev/beautifulbublik/paymentservice/repository/PaymentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/dev/beautifulbublik/paymentservice/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/dev/beautifulbublik/paymentservice/service/mappers/PaymentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/src/test/java/dev/beautifulbublik/paymentservice/PaymentServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taco/src/main/java/com/example/demo/IngredientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taco/src/main/resources/mykeys.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../taco/src/main/java/com/example/demo/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../taco/src/main/java/com/example/demo/security/SecurityConfig.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="order-system" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="order-system" type="f1a62948:ProjectNode" />
+                <item name="delivery-service" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="order-system" type="f1a62948:ProjectNode" />
+                <item name="delivery-service" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="order-system" type="f1a62948:ProjectNode" />
+                <item name="delivery-service" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="order-system" type="f1a62948:ProjectNode" />
+                <item name="delivery-service" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+                <item name="org.springframework.kafka:spring-kafka:4.1.0" type="b3323d55:ExternalSystemViewDefaultContributor$DependencyExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="order-system" type="f1a62948:ProjectNode" />
+                <item name="delivery-service" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+                <item name="org.springframework.kafka:spring-kafka:4.1.0" type="b3323d55:ExternalSystemViewDefaultContributor$DependencyExternalSystemNode" />
+                <item name="org.springframework:spring-messaging:7.0.8" type="b3323d55:ExternalSystemViewDefaultContributor$DependencyExternalSystemNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;BeautifulBublik&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/BeautifulBublik/taco.git&quot;,
+    &quot;accountId&quot;: &quot;fbf0767a-e9d5-44ef-8d5c-897d25922ca4&quot;
+  }
+}</component>
+  <component name="HttpClientOnboardingState">{
+  &quot;isOnboardingCommentShown&quot;: true
+}</component>
+  <component name="HttpClientSelectedEnvironments">
+    <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/post-requests.http" environment="test" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="3GJIEdvtkHSyfh7N7lwS56768p6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Docker.docker-compose.yaml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build order-system.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #1.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.DeliveryServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.OrderServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.PaymentServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Projects/order-system/delivery-service&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.55402297&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;spring&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\order-system\delivery-service" />
+      <recent name="C:\Projects\order-system\order-service" />
+      <recent name="C:\Projects\order-system\payment-service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dev.beautifulbublik.orderservice.kafka" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="HttpClient.HttpRequestRunConfigurationType">
+          <value>
+            <map>
+              <entry key="generated-requests | #1" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="DeliveryServiceApplication" value="STOPPED" />
+              <entry key="OrderServiceApplication" value="STOPPED" />
+              <entry key="PaymentServiceApplication" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="HTTP Request.generated-requests | #1">
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="DeliveryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="order-system.delivery-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="dev.beautifulbublik.deliveryservice.DeliveryServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="order-system.order-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="dev.beautifulbublik.orderservice.OrderServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="order-system.payment-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="dev.beautifulbublik.paymentservice.PaymentServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.generated-requests | #1" />
+        <item itemvalue="Docker.docker-compose.yaml: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.26222.65" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.26222.65" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9cc4ae79-e71e-4002-8bb9-1cabc29eb3df" name="Changes" comment="" />
+      <created>1783683135832</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1783683135832</updated>
+      <workItem from="1783683137946" duration="5142000" />
+      <workItem from="1783770491912" duration="3446000" />
+      <workItem from="1783773971799" duration="1416000" />
+      <workItem from="1783777215067" duration="4540000" />
+      <workItem from="1783942291851" duration="1995000" />
+    </task>
+    <task id="LOCAL-00001" summary="Small commit">
+      <option name="closed" value="true" />
+      <created>1783943518887</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1783943518887</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Small commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small commit" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

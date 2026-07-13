@@ -1,0 +1,28 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: delivery-service-group
+  application:
+    name: delivery-service
+  mvc:
+    problem-details:
+      enabled: true
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/orders
+    driver-class-name: org.postgresql.Driver
+    password: postgres
+    username: postgres
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+
+
+server:
+  port: 8082
+
+
+order-paid-topic: order.event
+delivery-assigned-topic: delivery.events
